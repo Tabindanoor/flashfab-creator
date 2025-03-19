@@ -13,7 +13,14 @@ import StudyMatch from "./pages/StudyMatch";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 
+// Initialize study sets in local storage with sample data
+import { initializeWithSampleData } from "./utils/studySetService";
+
+// Create a client
 const queryClient = new QueryClient();
+
+// Initialize with sample data
+initializeWithSampleData();
 
 const App = () => (
   <QueryClientProvider client={queryClient}>

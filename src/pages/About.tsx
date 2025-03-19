@@ -121,6 +121,9 @@ const About = () => {
               <p className="mt-4">
                 Our platform is designed to be educational, accessible, and privacy-focused. We're constantly improving our AI capabilities to better serve learners of all levels.
               </p>
+              <p className="mt-4 text-sm text-muted-foreground">
+                To use the AI features, you'll need to provide your own Google Gemini API key, which you can get from the <a href="https://makersuite.google.com/app/apikey" target="_blank" rel="noopener noreferrer" className="text-primary hover:underline">Google AI Studio</a>.
+              </p>
             </CardContent>
           </Card>
         </div>
